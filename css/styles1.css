@@ -60,7 +60,7 @@ body {
   color: #2487f8;
   text-decoration: underline;
 }
-@media{
+@media(max-width: 576px){
   .signup-button{
     width: 50%;
   }

@@ -1,69 +1,67 @@
-/* signup */
-.stitle h1 {
-    text-align: center;
-    font-size: 50px;
-    margin-top: 30px;
-    font-family: "Montserrat", sans-serif;
-    letter-spacing: 0.5px;
-    font-weight: bold;
-  }
-  ._sub-title {
-    text-align: center;
-    font-size: 19px;
-    padding-top: 7px;
-    font-weight: 500;
-    letter-spacing: 3px;
-  }
-  
-  ._fields {
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #ecf0f3;
+}
+.neu {
+  border: none;
+  border-radius: 20px;
+  box-shadow: 18px 18px 36px #b1b1b1, -18px -18px 36px #ffffff;
+  background-color: #ecf0f3;
+}
+.neu:focus {
+  border-radius: 20px;
+  box-shadow:inset 15px 15px 30px #b1b1b1,
+  inset -15px -15px 30px #ffffff;
+}
+.signup-button{
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #2487f8;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+
+.signup-button:hover {
+  background: #2fdbb6;
+}
+.signup-button:active {
+  background: #1da88a;
+}
+.span{
+  color: #aaa;
+  font-size: 19px;
+}
+.span:hover{
+  color: #2487f8;
+  text-decoration: underline;
+}
+.link {
+  padding-top: 30px;
+  text-align: center;
+}
+.link a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 19px;
+}
+.link a:hover {
+  color: #2487f8;
+  text-decoration: underline;
+}
+@media{
+  .signup-button{
     width: 50%;
-    margin-left: 200px;
-    padding: 75px 5px 5px 5px;
   }
-  ._fields input {
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 24px;
-    color: #555;
-    padding: 20px 10px 20px 5px;
-  }
-  
-  .name, .email, .phno, .susername,
-  .spassword, .cpassword {
-    margin-bottom: 60px;
-    border-radius: 25px;
-    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
-  }
-  ._fields svg {
-    height: 24px;
-    margin: 10px 10px 20px 30px;
-  }
-  
-  .sbutton button{
-    outline: none;
-    border: none;
-    cursor: pointer;
-    width: 30%;
-    margin-top: 20px;
-    margin-left: 662px;
-    height: 60px;
-    border-radius: 30px;
-    font-size: 28px;
-    font-weight: 700;
-    font-family: "Montserrat", sans-serif;
-    color: #fff;
-    text-align: center;
-    background: #2487f8;
-    box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
-    transition: 0.5s;
-  }
-  .sbutton button:hover {
-    background: #2fdbb6;
-  }
-  .sbutton button:active {
-    background: #1da88a;
-  }
-  
-  
-  
+}

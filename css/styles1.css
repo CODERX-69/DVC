@@ -6,6 +6,11 @@
 body {
   background-color: #ecf0f3;
 }
+
+.container input{
+  font-size: 15px;
+}
+
 .neu {
   border: none;
   border-radius: 20px;
